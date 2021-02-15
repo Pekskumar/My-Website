@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+header{
+    height: 85vh;
+    width: 100%;
+    background-image:linear-gradient(to bottom ,rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url('../images/bg.jpg');
+}
+nav{
+    height: 20vh;
+    width: 100%;
+   
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    width: 30%;
+}
+nav .logo h1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+nav .menubar{
+    
+    width: 50%;
+}
+nav .menubar ul{
+    padding: 0px;
+}
+nav .menubar ul li{
+    
+    float: left;
+    width: 120px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+nav .menubar ul li ul{
+    display: none;
+}
+nav .menubar ul li:hover > ul{
+    display: block;
+    color: orangered;
+    transition: all ease-in-out 0.3s;
+}
+nav .menubar ul li:hover{
+    background-color: orangered;
+    color: rgb(255, 255, 255);
+    transition: all ease-in-out 0.3s;
+}
+
+nav .menubar a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+header nav .menubar ul > :first-child {
+    background-color: orangered;
+ 
+  }
+.banner{
+    height:65vh;
+    width: 100%;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+    line-height: 1.5;
+}
+.banner span{
+    color: orangered;
+}
+#about{
+    height: 100vh;
+    width: 100%;
+   
+    
+    
+}
+#about h1{
+    text-align: center;
+    
+    text-transform: uppercase;   
+    padding-top: 40px;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    height: 10vh;
+}
+#about .profile{
+    height: 35vh;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.profile .img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url('../images/me.jpg');
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    border: 2px solid orangered;
+}
+.para{
+    width: 65%;
+    text-align: center;
+    font-size: 18px;
+}
+.progress{
+    height: 80px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+}
+#progressh{
+    margin-top: 10px;
+    height: 13px;
+    width: 400px;
+    background-image:linear-gradient(to right,orangered 90%, rgb(204, 202, 202) 10%);
+}
+#progressc{
+    margin-top: 10px;
+    height: 13px;
+    width: 400px;
+    background-image:linear-gradient(to right,orangered 80%, rgb(204, 202, 202) 20%);
+}
+#progressb{
+    margin-top: 10px;
+    height: 13px;
+    width: 400px;
+    background-image:linear-gradient(to right,orangered 70%, rgb(204, 202, 202) 30%);
+}
+#progressk{
+    margin-top: 10px;
+    height: 13px;
+    width: 400px;
+    background-image:linear-gradient(to right,orangered 100%, rgb(204, 202, 202) 0%);
+}
+#progressg{
+    margin-top: 10px;
+    height: 13px;
+    width: 400px;
+    background-image:linear-gradient(to right,orangered 95%, rgb(204, 202, 202) 5%);
+}
+.btn{
+    height: 15vh;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.btn a{
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid orangered;
+    text-align: center;
+    margin: auto;
+}
+#work{
+    height: 125vh;
+    width: 100%;
+    background-color: #2e3e4e;
+}
+#work h1{
+    text-align: center;
+    text-transform: uppercase;   
+    padding-top: 40px;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    height: 10vh; 
+    color: orangered;  
+}
+#work p{
+    font-size: 16px;
+    color: white;
+    padding: 40px 80px 30px 80px;
+    
+}
+#work ul{
+    margin-left: 630px;
+}
+#work ul li{
+    text-transform: uppercase;
+    width: 100px;
+    list-style: none;
+    line-height: 50px;
+    text-align: center;
+    height: 50px;
+    float: left;
+    color: rgb(255, 255, 255);
+    
+    
+}
+#work ul li:first-child{
+    color: orangered;
+}
+#work ul li:hover{
+    color: orangered;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+.work-box{
+    height: 70vh;
+    width: 86%;
+  
+    margin-top: 50px;
+    margin-left: 70px;
+    position: relative;
+    
+}
+.btn1{
+    height: 10px;
+    width: 100%;
+    background-image:linear-gradient(to left, #2e3e4e 87%,orangered 13%);
+}
+.btn2{
+    height: 95%;
+    width: 10px;
+    background-image:linear-gradient(to top, #2e3e4e 70%,orangered 30%);
+}
+.btn3{
+    height: 10px;
+    width: 100%;
+    background-image:linear-gradient(to right, #2e3e4e 87%,orangered 13%);
+}
+.btn4{
+    height: 95%;
+    width: 10px;
+    background-image:linear-gradient(to bottom, #2e3e4e 70%,orangered 30%);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.pic-box{
+    width: 95%;
+    height: 180px;
+    
+    position: absolute;
+    top: 21px;
+    left: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pic-box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 180px;
+    
+    position: absolute;
+    bottom: 21px;
+    left: 25px;
+}
+.pic-img{
+    height: 180px;
+    width: 180px;
+    background-image: url('../images/me.jpg');
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    
+}
+#services{
+    height: 80vh;
+    width: 100%;
+    
+}
+#services h1{
+    text-align: center;
+    text-transform: uppercase;   
+    padding-top: 40px;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    height: 10vh; 
+    color: orangered;  
+}
+#services p{
+    padding: 40px 100px 5px 100px;
+    text-align: center;
+    color: rgb(175, 170, 170);
+}
+.service-box{
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 110px 0 110px;
+    background-color: #fff;
+}
+.service-one{
+    width: 30%;
+    height: 40vh;
+    
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.service-one .icon{
+    padding: 22px 0;
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    border-radius: 50%;
+    background-color:orangered; 
+}
+.service-one .icon i{
+    color: white;
+    font-size: 50px;
+}
+.service-one h2{
+    font-size: 1.1rem;
+}
+.service-one h4{
+    font-size: 12px;
+    color: rgb(175, 170, 170);
+}
+#contact{
+    height: 90vh;
+    width: 100%;
+    background-color: #2e3e4e;   
+}
+.cont-heading{
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+    padding: 40px 180px 40px 180px;
+    
+}
+.cont-heading h1{
+    color: orangered;
+    font-size: 2rem;
+}
+.cont-heading p{
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    font-size: 15px;
+}
+.cont-icon{
+    height: 6vh;
+    color: white;
+    width: 100%;
+    
+    text-align: center;
+    font-size: 20px;
+
+}
+.cont-icon i{
+    margin-left: 20px;
+}
+.form{
+
+    height: 32vh;
+    width: 83%;
+    
+    margin-left: 100px;
+    padding-top: 30px;
+}
+.form #name-one{
+    font-size: 16px;
+    color: white;
+    margin-left: 12px;
+    height: 30px;
+    width: 320px;
+    background-color:#2e3e4e;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.form #name-one:focus{
+    
+    outline: none;
+    text-overflow: ;
+}
+.form #name-two:focus{
+    
+    outline: none;
+    text-overflow: ;
+}
+.form #name-two{
+    font-size: 16px;
+    color: white;
+    margin-top:40px ;
+    margin-left: 12px;
+    height: 30px;
+    width: 656px;
+    background-color:#2e3e4e;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.form label{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: orangered;
+    margin-left: 150px;
+    cursor: pointer;
+}
+.form hr{
+    margin-top: 50px;
+    height: 1px;
+    border-color: rgb(133, 128, 133);
+}
+.footer{
+    height: 20vh;
+    color: white;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#contact .footer a{
+    color: orangered;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+    color: white;
+}

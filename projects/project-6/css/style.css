@@ -1,0 +1,678 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 135vh;
+    widows: 100%;
+}
+nav{
+    height: 35vh;
+    width: 100%;
+   
+}
+nav .logo{
+    height: 25vh;
+    width: 100%;
+    background-color: rgb(240, 237, 237);
+    display: inline-flex; 
+    justify-content: center;
+}
+.logo-design{
+    height: 25vh;
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-design h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 9px rgb(97, 89, 207);
+    color: black;
+}
+.logo-design p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-shadow:1px 1px 9px cornflowerblue;
+}
+.logo-call{
+    height: 25vh;
+    width: 25%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.logo-call img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.logo-call1{
+    margin-left: 10px;
+}
+.logo-call1 p{
+    margin-top: 5px;
+}
+.logo-mail{
+    height: 25vh;
+    width: 25%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.logo-mail img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.logo-mail1{
+    margin-left: 10px;
+}
+.logo-mail1 p{
+    margin-top: 5px;
+}
+.logo-time{
+    height: 25vh;
+    width: 25%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.logo-time img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.logo-time1{
+    margin-left: 10px;
+}
+.logo-time1 p{
+    margin-top: 5px;
+}
+.menu{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(240, 237, 237);
+}
+.menu ul{
+    padding: 0px;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+    text-transform: uppercase;
+    line-height: 60px;
+    height: 60px;
+    color: blue;
+    text-align: center;
+    background-color: rgb(240, 237, 237);    
+    width: 150px;
+    cursor: pointer;
+    
+}
+.menu ul li ul{
+    display: none;
+    
+}
+.menu ul li:hover > ul{
+    display: block;
+    background-color: rgb(240, 237, 237);
+    color: blue;
+    cursor: pointer;
+  
+}
+.menu ul li ul li{
+    position: relative;
+}
+.menu ul li ul li ul{
+    position: absolute;
+    left: 150px;
+    top: 0px;
+}
+main{
+    height:100vh ;
+    width: 100%;
+    background-image: url('../image/bg.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+main .bg1{
+    margin-left: 100px;
+}
+.bg1 h1{
+    font-size: 4.5rem;
+    font-size: 900;
+    margin-bottom: 40px;
+}
+.bg1 a{
+    padding: 12px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+.bg1 a#btn1{
+    background-color: rgb(63, 63, 63);
+    color: white;
+    border:1px solid rgb(63, 63, 63);;
+}
+.bg1 a#btn1:hover{
+    background:none;
+    color:black;
+    border:1px solid rgb(63, 63, 63);;
+    transition: all 0.3s ease-in;
+}
+.bg1 a#btn2{
+    margin-left: 20px;
+}
+.bg1 a#btn2:hover{
+    background-color: rgb(63, 63, 63);
+    color: white;
+    border:1px solid rgb(63, 63, 63);
+    transition: all 0.3s ease-in;
+}
+article{
+    height: 75vh;
+    width: 100%;
+    
+    display: flex;
+}
+.article1{
+    height: 75vh;
+    width: 50%;
+    padding: 100px 0px 0px 100px;
+    
+}
+.article1 h1{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.article1 hr{
+    margin-top:7px ;
+    height: 5px;
+    width: 120px;
+    background-color: rgb(184, 124, 240);
+}
+.article1 p{
+    margin-top:20px ;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.article1 a{
+    
+    padding: 12px;
+    background-color: rgb(184, 124, 240);
+    border-style: none;
+    text-transform: uppercase;
+    color:black;
+    text-decoration: none;
+    
+}
+.article1 a:hover{
+    color:white;
+    background-color: rgb(117, 83, 83);
+    border: 1px solidrgb(117, 83, 83);
+    transition: all ease-in-out 0.2s;
+}
+.article2{
+    height: 75vh;
+    width: 50%;
+    padding: 100px;
+    
+}
+iframe{
+    border: 1px solid rgb(184, 124, 240);
+    height: 300px;
+    width: 500px;
+}
+.para1{
+    background-color: rgb(77, 100, 165);
+    height: 40vh;
+    width: 100%;
+    
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.para1 h1{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.para1 p{
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+#orci{
+    height: 120vh;
+    width: 100%;
+    
+}
+.orci-one{
+    height: 20vh;
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orci-one h1{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.orci-one hr{
+    margin-top: 7px;
+    border-radius: 25%;
+    margin-left: 90px;
+    width: 90px;
+    height: 7px;
+    background-color: blueviolet;
+}
+.orci-two1{
+    height: 50vh;
+    width: 100%;
+    
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.box{
+    width: 28%;
+    height: 35vh;
+    background-color: rgb(99, 173, 202);
+}
+.box h2{
+    margin-top: 30px;
+    text-align: center;
+}
+.box p{
+    margin-top: 15px;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+}
+.box img#sp{
+    margin-left: 170px;
+    
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.box img#special{
+    margin-left:10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: -20px;
+
+}
+.box1{
+    width: 28%;
+    height: 35vh;
+    background-color: rgb(28, 102, 131);
+}
+.box1 h2{
+    margin-top: 30px;
+    text-align: center;
+}
+.box1 p{
+    margin-top: 15px;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+}
+.box1 img#sp{
+    margin-left: 170px;
+    
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.box1 img#special{
+    margin-left:10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: -20px;
+
+}
+.orci-two2{
+    height: 50vh;
+    width: 100%;
+    
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+#rid{
+    height: 150vh;
+    width: 100%;
+    
+}
+.rid-one{
+    height: 30vh;
+    color: white;
+    width: 100%;
+    background-color: rgb(11, 42, 54);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.rid-one h2{
+    font-size: 20px;
+    margin-left: 100px;
+}
+.rid-one a{
+    padding: 13px;
+    color: rgb(11, 42, 54);;
+    text-decoration: none;
+    border:1px solid  rgb(11, 42, 54);
+    background-color: white;
+    margin-right: 100px;
+}
+.rid-one a:hover{
+    color: white;
+    border: 1px solid white;
+    background: none;
+    transition: all ease 0.5s;
+}
+.rid-two{
+    height: 20vh;
+    color: white;
+    width: 100%;
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.rid-two h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+}
+.rid-two hr{
+    height: 7px;
+    width: 90px;
+    margin-top:7px ;
+    margin-left: 100px;
+    background-color: blueviolet;
+}
+.rid-three{
+    height: 100vh;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rid-box{
+    height: 75vh;
+    width: 220px;
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.rid-box img{
+    margin-top: 40px;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+.rid-box h3{
+    margin-top: 30px;
+    font-size: 1.4rem;
+}
+.rid-box p{
+    font-size: 13px;
+}
+.rid-box h5{
+    margin-top: 40px;
+    font-size: 1.1rem;
+}
+.rid-box ul li{
+    margin-top: 30px;
+    float: left;
+    list-style: none;
+    margin-left: 15px;
+}
+#morbi{
+    height: 100vh;
+    width: 100%;
+  
+    
+}
+.morbi-one{
+    height: 20vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.morbi-one h1{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.morbi-one hr{
+    height: 7px;
+    width: 80px;
+    background-color: blueviolet;
+    margin-left: 120px;
+    margin-top: 7px;
+}
+.morbi-two{
+    height: 60vh;
+    background-color: rgb(244, 241, 247);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.morbi-two-box{
+    height: 320px;
+    width: 320px;
+    padding: 15px;
+    background-color: rgb(212, 211, 203);
+}
+.morbi-two-box h3{
+    font-size: 16px;
+    font-weight: 200;
+}
+.mtb{
+    margin-top: 25px;
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+.mtb img{
+    margin-top: 50px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.mtb2{
+    margin-top: 50px;
+    margin-left: 13px;
+}
+.morbi-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.morbi-three a{
+    padding: 13px;
+    background-color: darkcyan;
+    color: white;
+    text-decoration: none;
+}
+.morbi-three a:hover{
+    border: 1px solid black;
+    color: black;
+    background-color:white;
+    transition: all ease 0.3s;
+}
+#ante{
+    height: 85vh;
+    width: 100%;
+    background-color:rgb(233, 225, 211);
+}
+.ante-one{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.ante-one h1{
+    font-size: 2rem;
+    font-size: 400;
+}
+.ante-one hr{
+    height: 7px;
+    width: 90px;
+    background-color: teal;
+    margin-left: 120px;
+    margin-top: 7px;
+}
+.ante-two{
+    height: 55vh;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.abc-box{
+    height: 40vh;
+    width: 28%;
+    
+}
+.abc-box h4{
+    font-size: 12px;
+    font-weight: 700;
+}
+.abc-box h2{
+    margin-top: 18px;
+    font-size: 22px;
+    font-weight: 700;
+    color: teal;
+}
+.abc-box h3{
+    margin-top: 18px;
+}
+.abc-box p{
+    margin-top: 18px;
+    color: teal;
+}
+footer{
+    height: 75vh;
+    width: 100%;
+    color: white;
+    background-color:rgb(29, 27, 27);
+}
+.footer-one{
+    height: 65vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.foo-one{
+    height: 65vh;
+    width:30%;
+
+    text-align: center;
+}
+.foo-one h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 9px rgb(97, 89, 207);
+    color: white;
+}
+.foo-one p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-shadow:1px 1px 9px cornflowerblue;
+    
+}
+.foo-one h3{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 100px;
+}
+.foo-one ul{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.foo-one ul li{
+    float: left;
+    list-style: none;
+    margin-left: 40px;
+}
+.foo-two{
+    height: 65vh;
+    width:20%;
+
+    text-align: left;
+}
+.foo-two h2{
+    margin-top: 65px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.foo-two p{
+    margin-top: 30px;
+    font-size: 17px;
+}
+.foo-three{
+    height: 65vh;
+    width:20%;
+
+    text-align: left;
+}
+.foo-three h2{
+    margin-top: 65px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.foo-three p{
+    margin-top: 30px;
+    font-size: 17px;
+}
+.footer-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot{
+    
+    height: 10vh;    
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+.foot h2{
+    margin-left: 100px;
+}
+.foot h3{
+    margin-right: 100px;
+}

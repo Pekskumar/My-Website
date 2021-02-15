@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Texturina', serif;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+#header{
+    width: 100%;
+    height: 82vh;
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-color:green;
+    background-blend-mode:lighten;
+        
+}
+.head1{
+    position: absolute;
+    top: 5px;
+    right: 80px;
+}
+.head1 a{
+    height: 100px;
+    width: 100px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+}
+.head1 button{
+    height: 50px;
+    width: 130px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+    border:1px solid white;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.3);
+}
+.head1 button:hover{
+    background-color:yellowgreen;
+    color: white;
+    border-style: none;
+    transition: all linear 0.2s;
+}
+.logo{
+    position: absolute;
+    top: 150px;
+    left:40%;
+    text-align: center;
+}
+.logo h1{
+    font-size: 6rem;
+    font-weight: 1500;
+    color: white;
+}
+.logo p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+}
+.logo button{
+    height: 50px;
+    width: 130px;
+    font-size: 1.3rem;
+    border-radius: 3px;
+    font-weight: 500;
+    color: white;
+    border:1px solid white;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.3);
+}
+.logo button:hover{
+    background-color:yellowgreen;
+    color: white;
+    border-style: none;
+    transition: all linear 0.2s;
+}
+
+/*---- SECTION TEXT  ---*/
+
+#header-text{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+ 
+}
+.header-text1 h1{
+    font-size: 3rem;
+    font-weight:1000;
+    color:black;
+}
+.header-text1 hr{
+    position: absolute;
+    left:48%;
+    margin-top: 12px;
+    height: 5px;
+    width: 63px;
+    background-color:yellowgreen;
+}
+.think{
+    position: absolute;
+    left: 90px;
+    margin-top: 80px;
+}
+.think p{
+    margin-top: 10px;
+    font-weight: 550;
+    text-align: left;
+}
+.heart{
+    position: absolute;
+    left: 510px;
+    margin-top: 80px;
+}
+.heart p{
+    text-align: left;
+}
+.bell{
+    position: absolute;
+    left: 910px;
+    margin-top: 80px;
+}
+.bell p{
+    text-align: left;
+}
+.sec3{
+    height: 700px;
+    width: 100%;
+    background-color: burlywood;
+}
+.sec3-bg{
+    height: 700px;
+    width: 50%;
+    background-image:url('prakash.jpg');
+    background-size: cover;
+    position: absolute;
+    left: 0px;
+    
+}
+.sec3-text{
+    height: 700px;
+    width: 50%;
+   background-color: rgb(223, 213, 213);
+    position: absolute;
+    right: 0px;
+    
+}
+.sec3-text h1{
+    font-size: 3rem;
+    font-weight: 1200;
+    color: black;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+.sec3-text hr{
+    position: absolute;
+    left:0px;
+    margin-top: 12px;
+    height: 5px;
+    width: 63px;
+    background-color:yellowgreen;
+    margin-left: 50px;
+} 
+.sec3-text h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+    margin-left: 50px;
+}
+.sec3-text p{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 50px;
+    color: black;
+    text-align: left;
+}
+#testimony{
+    height: 650px;
+    width: 100%;
+}
+.testi-head h1{
+    font-size:3.1rem;
+    font-weight: 1200;
+    text-align: center;
+    margin-top: 55px;
+}
+.testi-head hr{
+    height: 3px;
+    width: 70px;
+    background-color: chartreuse;
+    margin-left:650px ;
+
+}
+.testi1{
+    text-align: center;
+    position: absolute;
+    left: 100px;
+    margin-top: 50px;
+}
+.testi1 img{
+    height: 250px;   
+    width: 365px;
+}
+.testi1 p{
+    text-align: left;
+}
+
+.testi2{
+    text-align: center;
+    position: absolute;
+    left: 500px;
+    margin-top: 50px;
+}
+.testi2 img{
+    height: 250px;   
+    width: 365px;
+}
+.testi2 p{
+    text-align: left;
+}
+.testi3{
+    text-align: center;
+    position: absolute;
+    left: 900px;
+    margin-top: 50px;
+}
+.testi3 img{
+    height: 250px;   
+    width: 365px;
+}
+.testi3 p{
+    text-align: left;
+}
+/*----- section contact -------*/
+.contact{
+    height: 500px;
+    width: 100%;
+    background-color: grey;
+}
+.box{
+    height: 310px;
+    width: 440px;
+    background-color: lavender;
+    position:absolute;
+    right: 130px;
+    margin-top: 100px;
+}
+.phone{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.phone h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.phone p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.email{
+    position: absolute;
+    left: 50px;
+    bottom: 100px;
+}
+.email h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.email p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.address{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.address h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.address p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.open{
+    position: absolute;
+    bottom: 65px;
+    right: 40px;
+}
+.open h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.open p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+/*------- section Get in touch  ----*/
+.get{
+    width: 100%;
+    height: 560px;
+    
+}
+.get h1{
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 1200;
+    margin-top: 80px;
+}
+.get hr{
+    height: 4px;
+    width: 70px;
+    background-color: #8ae0ce;
+    margin-left: 630px;
+    margin-top: 10px;
+}
+.get form{
+    height: 270px;
+    width: 700px;
+    position: absolute;
+    left: 320px;
+    margin-top: 30px;
+}
+input, textarea{
+    font-size: 1rem;
+    padding: 9px;
+    width: 330px;
+}
+textarea:focus{
+    box-shadow: 1px 1px 15px dodgerblue;
+}
+input:focus{
+    box-shadow: 1px 1px 15px dodgerblue;
+}
+textarea{
+    margin-top: 18px;
+    width: 692px;
+    
+}
+input#check1{
+    position: absolute;
+    bottom: 70px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    
+}
+span#check1{
+    position: absolute;
+    left: 22px;
+    bottom: 67px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+input#check2{
+    position: absolute;
+    bottom: 70px;
+    left: 150px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    
+}
+span#check2{
+    position: absolute;
+    left: 172px;
+    bottom: 67px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+input#submit{
+    position: absolute;
+    bottom: 5px;
+    cursor: pointer;
+    height: 45px;
+    width: 130px;
+    padding-top: 3px;
+    color: white;
+    background-color: #8ae0ce;
+    border-style: none;
+}
+input#submit:hover{
+    background-color: #56b19d;
+}
+input#reset{
+    position: absolute;
+    left: 135px;
+    cursor: pointer;
+    bottom: 5px;
+    height: 45px;
+    width: 130px;
+    padding-top: 3px;
+    color: black;
+    border:1px solid #8ae0ce;
+}
+input#reset:hover{
+    color: white;
+    background-color: #8ae0ce;
+}
+.footer{
+    height: 260px;
+    width: 100%;
+    background-color:#5fb6a3;
+}
+.footer1{
+    color: whitesmoke;
+    position: absolute;
+    left: 100px;
+    margin-top: 70px;
+}
+.footer2{
+    color: whitesmoke;
+    position: absolute;
+    left: 485px;
+    margin-top: 70px;
+}
+.footer2 a{
+    color: whitesmoke;
+}
+.footer2 a:hover{
+    text-decoration: underline;
+}
+.footer3{
+    color: whitesmoke;
+    position: absolute;
+    right: 110px;
+    margin-top: 70px;
+}
+.footer3 input{
+    border-style: none;
+}
+.footer3 input:focus{
+    box-shadow: none;
+}
+a#ok{
+    height: 43px;
+    width: 50px;
+    padding-top: 7px;
+    padding-left: 11px;
+    color: whitesmoke;
+    position: absolute;
+    background-color:#5fb6a3;   
+    border: 1px solid whitesmoke
+    
+}
+a#ok:hover{
+    border-style: none;
+    background-color: whitesmoke;
+    color: #5fb6a3;   
+}

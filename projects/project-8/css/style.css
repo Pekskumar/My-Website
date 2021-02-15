@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(255,255,255,0.6),rgba(0,0,0,0.5)), url('../image/bg.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+nav{
+    height: 100vh;
+    width: 30%;
+    background-color: black;
+    opacity: 0.5;
+    position:fixed;
+    left:  0px;
+}
+nav .logo{
+    height: 50vh;
+    width: 100%;
+    
+    position: relative;
+}
+.logo-one{
+    height: 30vh;
+    width: 60%;
+    border: 1px solid white;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+.logo-two{
+    height: 30vh;
+    width: 60%;
+    border: 1px solid white;
+    position: absolute;
+    left: 23%;
+    top: 23%;
+}
+.logo-three{
+    height: 30vh;
+    width: 60%;
+    border: 1px solid white;
+    position: absolute;
+    left: 23%;
+    top: 23%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}   
+.logo-three h1{
+    font-size: 3rem;
+    color: whitesmoke;
+}
+.menu{
+    height: 50vh;
+    width: 100%;
+   
+    text-align: center;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 60px;
+    
+    text-transform: uppercase;
+}
+.menu a:hover{
+    color: rgb(98, 186, 226);
+}
+main{
+    height: 100vh;
+    width: 70%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+main .main-box{
+    height: 500px;
+    width: 500px;
+    background-color:rgba(255,255,255,0.3);
+    color: black;
+    opacity: 0.5;
+    border: 1px solid white;
+    box-shadow:1px 4px 15px rgb(184, 176, 176) ;
+    
+    padding: 25px;
+    margin-left: 600px;
+}
+.main-box h1{
+    color: rgb(10, 65, 121);
+    font-size: 25px;
+    font-weight: 600;
+}
+.main-box p{
+    color:black;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 40px;
+}
+article{
+    height: 100vh;
+    width: 100%;
+   
+    display: flex;
+
+}
+.trans-color{
+    height: 100vh;
+    width: 30%;
+    background-color: rgb(53, 48, 48);
+}
+.trans-contact{
+    height: 100vh;
+    width: 70%;
+   
+    display: flex;
+}
+.about{
+    height: 100vh;
+    width: 50%;
+   
+    padding: 20px;
+    
+}
+.about img{
+    height: 100px;
+    width: 120px;
+    margin-left: 100px;
+
+}
+.about h1{
+    color: dodgerblue;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-left: 100px;
+}
+.about p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 100px;
+}
+#work{
+    height: 100vh;
+    width: 100%;
+    color: dodgerblue;
+    display: flex;
+}
+.our-work{
+    height: 100vh;
+    width: 70%;
+    
+    position: relative;
+}
+.work-one{
+    height: 77vh;
+    width: 85%;
+    border: 1px solid black;
+    position: absolute;
+    left: 70px;
+    top: 70px;
+    
+}
+.work-two{
+    height: 77vh;
+    width: 85%;
+    border: 1px solid black;
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work-box{
+    height: 60vh;
+    width: 80%;
+    
+   
+}
+.work-box1{
+    height: 10%;
+    width: 100%;
+    font-size: large;
+}
+.work-box2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+
+}
+.work-box2 a{
+    
+    height: 350px;
+    width: 200px;
+    border: 1px solid dodgerblue;
+}
+.work-box2 a:hover{
+   
+    cursor: pointer;
+    opacity: 0.1;
+}
+#client{
+    height: 100vh;
+    width: 100%;
+    
+    display: flex;
+}
+.clients{
+    height: 100vh;
+    width: 70%;
+    
+    padding-top: 65px;
+    padding-left: 100px;
+
+}
+.our{
+    height: 120px;
+    width: 85%;
+    color: dodgerblue;
+}
+.our-one{
+    height: 80px;
+    width: 85%;
+    color: dodgerblue;
+}
+.clients h1{
+    color: dodgerblue;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.clients p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 40px;
+    line-height: 2;
+}
+.our{
+    margin-top: 60px;
+    display: flex;  
+    justify-content: space-between;
+}
+.our-one{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.our-box{
+    height: 120px;
+    width: 162px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    color: dodgerblue;
+    
+}
+.our-box1{
+    height: 80px;
+    width: 162px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    color: dodgerblue;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+}
+footer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.talk{
+    height: 100vh;
+    width: 70%;
+    
+    display: flex;
+    
+}
+.talk-box{
+    height: 100vh;
+    width: 50%;
+    
+    position: relative;
+}
+.talk-one{
+    margin-top: 100px;
+    margin-left: 80px;
+    height: 70vh;
+    width: 80%;
+    border: 1px solid black;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.talk-one h1{
+    font-weight: 400;
+    color: dodgerblue;
+}
+.talk-one p{
+    font-size: 19px;
+    line-height: 2;
+    font-weight: 500;
+}
+.talk-two{
+    margin-top: 85px;
+    margin-left: 70px;
+    height: 70vh;
+    position: absolute;
+    width: 80%;
+    border: 1px solid black;
+}
+.talk-form{
+    padding-top: 150px;
+    padding-left: 70px;
+    padding-right: 50px;
+    
+    height: 100vh;
+    width: 50%;
+   
+}
+input{
+    font-size: 17px;
+    outline: 0;
+    border-width:0 0 1px;
+    padding: 5px 15px;
+}
+input:focus{
+    border-color: dodgerblue;
+}
+textarea{
+    padding: 5px 15px;
+    font-size: 17px;
+    outline: 0;
+    border-width: 0 0 1px;
+}
+textarea:focus{
+    border-color: dodgerblue;
+}
+form a{
+    
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    margin-left: 183px;
+   
+    border-bottom: 1px solid black;
+    border-color: rgb(121, 8, 8);
+}
+form a:hover{
+    color: white;
+    background-color: gray;
+    transition: all ease-in-out 0.3s;
+}

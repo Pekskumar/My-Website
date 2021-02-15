@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+    
+}
+nav{
+    
+    height: 35vh;
+    background-color: rgb(50, 76, 83);
+    width: 100%;
+    
+
+}
+nav .logo{
+    
+    height: 20vh;
+    background-color:rgb(224, 219, 219);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo h1{
+    font-size: 2.7rem;
+    color:  rgb(50, 76, 83);
+}
+.logo p{
+    font-size: 1.1rem;
+    font-weight:600;
+    color: dodgerblue;
+}
+nav .menubar{
+    height: 12vh;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+    font-size: 25px;
+    line-height: 25px;
+    text-transform:uppercase;
+    width:140px;
+    color: white;
+}
+.menu ul{
+    margin-left: 100px;
+}
+.menubar h1{
+    color: white;
+    margin-right: 100px;
+}
+main{
+    height: 65vh;
+    width: 100%;
+    background-image:linear-gradient(rgb(50, 76, 83,0.7),rgb(50, 76, 83,0.7)), url('../image/bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#welcome h1{
+     font-size: 3rem;
+     color: white;
+}
+#welcome h2{
+    font-size: 3rem;
+    color: rgb(115, 182, 248);
+    text-shadow: 0px 0px 5px black;
+}
+#welcome p{
+    margin-top: 30px;
+    font-size: 1.3rem;
+    color: white;
+}
+#welcome a{
+    
+    padding: 10px;
+    text-transform: uppercase;
+    background-color:rgb(50, 76, 83);
+    border-radius: 5px;
+    
+    text-decoration: none;
+    color: white;
+    
+    box-shadow: 0px 0px 5px white;
+    font-size: 18px;
+}
+#welcome a:hover{
+    background-color: rgb(115, 182, 248);
+    color: rgb(50, 76, 83);
+    font-weight: bolder;
+    transition: all ease-in-out 0.5s;
+}
+article{
+    height: 50vh;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article-one{
+     height: 50vh;
+    width: 85%;
+    box-shadow: 0px 0px 8px white;
+    background-color: white;
+    margin-top: -95px;
+    text-align: center;
+}
+.article-one h1{
+    font-size: 2rem;
+}
+.article-one hr{
+    width: 810px;
+    margin-left: 170px;
+    margin-top: 8px;
+    
+}
+.article-one p{
+    padding: 20px;
+}
+.article-one a{
+        padding: 10px;
+        text-transform: uppercase;
+        background-color:rgb(50, 76, 83);
+        border-radius: 5px;
+        
+        text-decoration: none;
+        color: white;
+        
+        box-shadow: 0px 0px 5px white;
+        font-size: 18px;
+}
+.article-one a:hover{
+        background-color: rgb(115, 182, 248);
+        color: rgb(50, 76, 83);
+        font-weight: bolder;
+        transition: all ease-in-out 0.3s;
+}
+#service{
+    height: 150vh;
+    width: 100%;
+   
+}
+.service-one{
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.service-one hr{
+    margin-left: 420px;
+    width: 480px;
+}
+.service-two{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.servicebox{
+    height: 400px;
+    width: 550px;
+    background-color: rgb(50, 76, 83);
+    color: white;
+    padding:15px 40px;
+}
+.servicebox h2{
+    margin-top: 50px;
+    font-size: 1.8rem;
+}
+.servicebox p{
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+.quote{
+    height: 18vh;
+    width: 100%;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.quote-one h2{
+    font-size: 1.8rem;
+}
+.quote-one p{
+
+    font-size: 1.2rem;
+}.quote a{
+    padding: 10px;
+    text-transform: uppercase;
+    background-color:rgb(50, 76, 83);
+    border-radius: 5px;
+    
+    text-decoration: none;
+    color: white;
+    
+    box-shadow: 0px 0px 5px white;
+    font-size: 18px;
+}
+.quote a:hover{
+    background-color: white;
+    color: rgb(50, 76, 83);
+    font-weight: bolder;
+    transition: all ease-in-out 0.3s;
+}
+#touch{
+    height: 100vh;
+    width: 100%;
+    
+}
+.touch-one{
+    height: 23vh;
+    width: 100%;
+    
+    text-align: center;
+    
+}
+.touch-one h1{
+    font-size: 2.5rem;
+}
+.touch-one hr{
+    width: 480px;
+    margin-left: 420px;
+    margin-top: 5px;
+}
+.touch-two{
+    height: 77vh;
+    width: 100%;
+    background-color: rgb(50, 76, 83);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form{
+    height: 65vh;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+}
+.forrm{
+    height: 65vh;
+    width: 40%;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forrm p{
+    line-height: 30px;
+    font-size: 20px;
+    word-spacing: 3px;
+}
+form input{
+    height: 60px;
+    width: 450px;
+    margin-left: 45px;
+    background-color:  rgb(50, 76, 83);
+    font-size: 22px;
+    padding: 2px 20px;
+}
+form input:focus{
+    color: white;
+}
+form textarea{
+    width: 450px;
+    margin-left: 45px;
+    background-color:  rgb(50, 76, 83);
+    font-size: 22px;
+    padding:20px 20px;
+    color: white;
+}
+form a{
+    font-size: 22px;
+    color: white;
+    background-color: rgb(240, 55, 9);
+    text-decoration: none;
+    padding: 12px 50px;
+    border-radius: 5px;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+form a:hover{
+    color: blue;
+}
+footer{
+    height: 55vh;
+    width: 100%;
+   
+}
+.contact{
+    height: 20vh;
+    width: 100%;
+    
+    text-align: center;
+}
+.contact h1{
+    font-size: 2.5rem;
+}
+.contact hr{
+    width: 500px;
+    margin-left: 400px;
+}
+.co-one{
+    height: 28vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+.co-two{
+    height: 7vh;
+    width: 100%;
+    background-color: darkcyan;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,634 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 140vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../back.jpg');
+    background-size: cover;
+}
+nav{
+    height: 40vh;
+    width: 100%;
+    
+    
+}
+nav .logo{
+    height: 32vh;
+    position: relative;
+    
+    
+}
+nav .logo a{
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 5 px yellow;
+    border: 1px double whitesmoke;
+    position: absolute;
+    padding: 20px;
+    top: 40px;
+    text-decoration: none;
+    left: 550px;
+  
+}
+nav .menu{
+    width: 100%;
+    height: 8vh;
+    background-color:rgba(255,255,255,0.3) ;
+    display: flex;
+    justify-content: center;
+    
+}
+nav .menu ul{
+    padding: 0px;
+}
+nav .menu ul li{
+    float: left;
+    width: 130px;
+    text-transform: uppercase;
+    background-color:rgba(255,255,255,0.1 ) ;
+    color: white;
+    height: 8vh;
+    line-height: 8vh;
+    text-align: center;
+    font-size: 15px;
+    list-style: none;
+    
+}
+nav ul li ul{
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+    background-color:rgba(255,255,255,0.3) ;
+    
+}
+
+nav ul li:hover{
+    color: orange;
+}
+nav ul li ul li{
+    position: relative;
+}
+nav ul li ul li ul{
+    position: absolute;
+    left: 130px;
+    top: 0px;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    
+    align-items: center;
+    padding: 100px;
+    
+    text-align: left;
+}
+main h1{
+    font-size: 3.6rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+main p{
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+main a{
+  
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(201, 179, 179);
+}
+main a:hover{
+    border: 1px solid white;
+    background:none;
+    color: white;
+    transition: all 0.3s ease-in-out ;
+}
+section{
+    height: 100vh;
+    width: 100%;
+   
+}
+article{
+    height: 40vh;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+article h2{
+    font-size: 3rem;
+    font-weight: 400;
+}
+article p{
+    margin-top: 28px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.ph{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+.ph1{
+    height: 60vh;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ph1 img{
+    height: 50vh;
+    width: 550px;
+    margin-left: 70px;
+}
+.ph2{
+    height: 60vh;
+    width: 45%;
+    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+.ph2 h3{
+    font-size: 1.3rem;
+    width: 200;
+}
+.ph2 p{
+    font-size: 1rem;
+    width: 200;
+}
+.ph2 a{
+    text-decoration: none;
+    padding: 13px;
+    background-color: rgb(117, 112, 112);
+    color: white;
+    
+}
+.ph2 a:hover{
+    background: none;
+    color: black;
+    border:1px solid black;
+    transition: all .3s ease-in-out;
+}
+.ph5{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.ph6{
+    height: 60vh;
+    width: 45%;
+    margin-left: 120px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+.ph6 a{
+    text-decoration: none;
+    padding: 13px;
+    background-color: rgb(117, 112, 112);
+    color: white;
+    
+}
+.ph6 a:hover{
+    background: none;
+    color: black;
+    border:1px solid black;
+    transition: all .3s ease-in-out;
+}
+.metus{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url('../back.jpg');
+    background-size: cover;
+    color: white;
+}
+.art{
+    height: 40vh;
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.art h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.art p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-top:20px ;
+} 
+.art2{
+    height: 60vh;
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+} 
+.metus1{
+    margin-right: 70px;
+}
+.metus2{
+    margin-right: 70px;
+}
+.art2 a{
+    padding: 13px;
+    background:none;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+}
+.art2 a:hover{
+    background-color: gray;
+}
+.amet{
+    height: 100vh;
+    width: 100%;
+    
+}
+.amet1{
+    height: 40vh;
+    width: 100%;
+   
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+}
+.amet1 h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.amet1 p{
+    font-size: 1.1rem;
+    font-weight: 300;
+   
+}
+.amet2{
+    height: 60vh;
+    width: 100%;
+   
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+}
+.box{
+    height: 50vh;
+    width: 250px;
+    border-style: none;
+    box-shadow: 1px 1px 9px gray;
+}
+.box a{
+    padding: 90px;
+    border:1px solid black;
+    border-radius: 50%;
+}
+.libero{
+    width: 100%;
+    height: 100vh;
+    box-shadow: 1px 1px 13px rgb(117, 112, 112);
+}
+.libero1{
+    width: 100%;
+    height: 30vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.libero1 h1{
+    font-size: 3rem;
+    font-size: 600;
+}
+.libero1 p{
+    margin-top: 20px;
+}
+.libero2{
+    width: 100%;
+    height: 70vh;
+    
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.sqrbox{
+    height: 50vh;
+    width: 325px;
+    box-shadow: 1px 1px 10px gray;    
+    position: relative;
+}
+.sqrbox h3{
+    font-size: 1.7rem;
+    padding: 20px;
+}
+.sqrbox p{
+    padding: 0px 20px;
+}
+.sqrbox a{
+    padding:13px;
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.sqrbox a:hover{
+    border: 1px solid black;
+    color: black;
+    background: none;
+    transition: all 0.3s ease-in-out;
+}
+.form-back{
+    height: 60vh;
+    widows: 100%;
+    background-image:radial-gradient(rgba(0,0,0,0.5),rgba(255,255,255,0.9)) ,url('../back.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-box{
+    height: 50vh;
+    width: 90vh;
+    background-color: rgba(255,255,255,0.7);
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+form h3{
+    font-size: 1.3rem;
+    margin-top: 25px;
+}
+form p{
+    font-size: 1.1rem;
+    margin-top: 22px;
+}
+form input{
+    margin-top: 20px;
+    height: 20px;
+    width: 550px;
+    padding: 15px 0px 15px 17px;
+    color: black;
+    border-style: none;
+    border-radius: 0px;
+}
+form input:focus{
+    border: none;
+    box-shadow: 1px 2px 15px rgb(117, 112, 112);
+}
+form a{
+   padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(95, 12, 12, 0.3);
+}
+form a:hover{
+    background-color: rgba(255,255,255,0.7);
+    color: black;   
+    border: 1px solid black;
+    transition: all 0.5s ease-in-out;
+}
+.ship{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url('../back.jpg');
+    background-size: cover;
+    color: white;
+}
+.ship1{
+    height: 38vh;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.ship1 h1{
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+.ship1 img{
+    height: 40px;
+    width: 40px;
+    margin-top: 25px;
+}
+.ship1 p{
+    margin-top: 25px;
+}
+.ship hr{
+    margin-left: 50px;
+    height: 2px;
+    width: 1250px;
+    background-color: white;
+}
+.ship2{
+    height: 60vh;
+    width: 100%;
+  
+    display: flex;
+    justify-content:space-around;
+    text-align: left;
+}
+
+.ship22{
+    height: 60vh;
+    width: 240px;
+  
+}
+.ship22 h2{
+    margin-top: 30px;
+}
+.ship2-1{
+    margin-top: 30px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+}
+.ship2-1 img{
+    height: 20px;
+    width: 20px;
+}
+.ship22 hr{
+    height: 1px;
+    width: 240px;
+    background-color: white;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+.ship2-2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 20px; 
+    margin-right: 22px;   
+}
+.ship2-2 img{
+    height: 20px;
+    width: 20px;
+}
+.ship2-2 p{
+    margin-ri:0px ;
+}
+.ship23{
+    height: 60vh;
+    width: 240px;
+    
+}
+.ship23 h2{
+    margin-top: 30px;
+}
+.ship23 hr{
+    height: 1px;
+    width: 240px;
+    background-color: white;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+.ship23 p#one{
+    margin-top: 30px;
+}
+.ship23 p{
+    margin-top: 20px;
+}
+.ship24{
+ height: 60vh;
+    width: 240px;
+  
+}   
+.ship24 h2{
+    margin-top: 30px;
+    font-weight: 530;
+}
+.ship24 hr{
+    height: 1px;
+    width: 240px;
+    background-color: white;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+.ship24 p#two{
+    margin-top: 30px;
+}
+.ship25{
+    height: 60vh;
+    width: 240px;
+   
+    position: relative;
+}
+.ship25 h2{
+    margin-top: 30px;
+}
+.ship25 img#s1{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 90px;
+}
+.ship25 img#s2{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 90px;
+    left: 85px;
+}
+.ship25 img#s3{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 90px;
+    left: 170px;
+}
+.ship25 img#s4{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 180px;
+    left: 170px;
+}
+.ship25 img#s5{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 180px;
+    left: 85px;
+}
+.ship25 img#s6{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 180px;
+    left: 0px;
+}
+.ship25 img#s7{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 270px;
+    left: 0px;
+}
+.ship25 img#s8{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 270px;
+    left: 85px;
+}
+.ship25 img#s9{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 270px;
+    left: 170px;
+}
+footer{
+    height: 10vh;
+    width: 100%;
+    background-color:rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   color: white;
+
+}
+footer h2{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 100px;  
+}
+footer p{
+    font-size: 1.2rem;
+    font-weight: 500;  
+    margin-right: 100px;
+}

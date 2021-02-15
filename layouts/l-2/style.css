@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header nav{
+    background-color: rgb(255, 255, 255);
+    
+}
+header nav a{
+    color: rgb(66, 63, 63);
+}
+header .navbar{
+
+}
+/* header .navbar ul li:first-child a{
+    font-size: 12px;
+    padding: 20px 40px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+   
+    
+} */
+header .navbar ul li:first-child .box{
+    background-color: rgb(99, 184, 125);
+  
+    font-size: 20px;
+  
+    padding: 7px 33px;
+    border-radius: 20px;
+    height: 40px;
+    line-height: 20px;
+    
+    width: 250px;
+    color: white;
+}
+header nav .navbar-brand{
+    font-size: 22px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
+header .navbar ul li:first-child a span{
+    font-size: 11.5px;
+    font-weight: bold;
+    color: rgb(201, 214, 202);
+}
+header .navbar ul li a .box1{
+    
+  
+    font-size: 15px;
+  
+    padding: 7px 33px;
+    border-radius: 20px;
+    height: 40px;
+    line-height: 20px;
+    width: 150px;
+    color: rgb(38, 41, 211);
+}
+main{
+    background-image:linear-gradient(rgb(75, 196, 226) 78%,rgb(56, 106, 216) 22%);
+    height: 89vh;
+    width: 100%;
+    color: white;
+}
+main .main-one{
+    padding: 5px;
+    margin: 220px 10px 10px 100px;
+}
+main .main-one .one-heading{
+    font-size: 30px;
+}
+main .main-one .one-para{
+    font-size: 18px;
+}
+main .white-box{
+    margin-top: 100px;
+    height: 430px;
+    border-radius: 3px;
+    width: 430px;
+    background-color: white;
+    color: rgb(25, 58, 163);
+    
+    padding: 50px;
+}
+main .white-box p{
+    padding-top: 10px;
+    font-size: 12px;
+}
+main .white-box i{
+    margin-left: 150px;
+    font-size: 25px;
+    padding-bottom: 15px;
+}

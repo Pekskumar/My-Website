@@ -1,0 +1,395 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Yusei Magic', sans-serif;
+}
+/*--------home menu bar---------------*/
+header{
+    position: sticky;
+    top: 0;
+}
+.navbar{
+    background-color: #0099ff;
+    
+}
+.logo{
+    font-size: 50px;
+    color: white;
+    margin-left: 3px;
+}
+header .fas{
+    color: white;
+    font-size: 40px;
+}
+header .navbar-toggler{
+    outline: none;
+}
+.navbar-nav li{
+    
+    padding: 0 10px;  
+    margin-left: 70px;
+    
+}
+.navbar-nav li a{
+    margin-left: 0px;
+    color:white;
+    font-size: 17px;
+    font-weight: 200;
+    float: right;
+    text-align: center;
+}
+.navbar-nav li a:hover{
+    color:blue;
+    transition: all linear 0.3s;
+    background-color:gainsboro;
+    border-radius: 5px;
+}
+header .navbar-toggler:focus{
+    outline: none;
+    
+
+}
+/*--------End  home menu bar---------------*/
+main{
+    background-color: aquamarine;
+    background-image:linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.9)) , url('../image/bg.jpg');
+    
+}
+
+/*--main .white-box{
+    height: 80vh;
+    width: 90%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}--*/
+main img{
+    margin-top: 60px;    
+    margin-bottom: 60px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 12px dodgerblue;
+}
+main .main-lineone{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    text-align: center;
+}
+main .name{
+    background-image: linear-gradient(to right,rgb(78, 78, 233),rgb(77, 177, 122),rgb(66, 181, 185));
+    color: white;
+    font-size: 800;
+}
+main .bio{
+    font-size: 13px;
+    line-height: 3;
+    
+    
+}
+main .main-address{
+    font-size: 12px;
+}
+.main-address1 .fas{
+    margin-left: 20px;
+    font-size: 20px;
+    height: 25px;
+    padding:5px ;
+    border-radius: 2px;
+    width: 25px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-image: linear-gradient(to right,rgb(78, 78, 233),rgb(77, 177, 122),rgb(66, 181, 185));    
+}
+main .main-address1 .fab{
+    color: white;
+}
+main .main-address1 .far{
+    color: white;
+}
+/*main .linkedin{
+    background-color: #0e76a8;
+    padding: 5px 7px;
+    border-radius: 3px;
+    
+}
+main .twitter{
+    background-color: #1DA1F2;
+    padding: 5px 7px;
+    border-radius: 3px;
+    
+}
+main .facebook{
+    background-color: #3b5998;
+    padding: 5px 9px;
+    border-radius: 3px;
+    
+}
+main .site{
+    background-color: #3b5998;
+    padding: 5px 9px;
+    border-radius: 3px;
+    
+}
+main .instagram{
+    background-color: #8a3ab9;
+    padding: 5px 8px;
+    border-radius: 3px;
+    
+}*/
+/*------Footer---------*/
+footer{
+    background-color: #0099ff;
+    color: white;
+}
+footer a{
+    margin-left: 25px;
+    
+}
+footer a i:hover i{
+    transform: translatey(-20px);
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 3px;
+}
+footer .linkedin{
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 3px;
+    
+}
+footer .linkedin:hover{
+    background-color:  #0099ff;
+    border: 1px solid white;
+    color: white;
+    transition: all ease-in-out 0.3s; 
+}
+footer .twitter{
+    background-color: #ffffff;
+    padding: 5px 7px;
+    border-radius: 3px;
+    
+}
+footer .twitter:hover{
+    background-color:  #0099ff;
+    border: 1px solid white;
+    color: white;
+    transition: all ease-in-out 0.3s; 
+}
+footer .facebook{
+    background-color: #ffffff;
+    padding: 5px 9px;
+    border-radius: 3px;
+    
+}
+footer .facebook:hover{
+    background-color:  #0099ff;
+    border: 1px solid white;
+    color: white;
+    transition: all ease-in-out 0.3s; 
+}
+footer .site{
+    background-color: #ffffff;
+    padding: 5px 9px;
+    border-radius: 3px;
+    
+}
+footer .site:hover{
+    background-color:  #0099ff;
+    border: 1px solid white;
+    color: white;
+    transition: all ease-in-out 0.3s; 
+}
+footer .instagram{
+    background-color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 3px;
+    
+}
+footer .instagram:hover{
+    background-color:  #0099ff;
+    border: 1px solid white;
+    color: white;
+    transition: all ease-in-out 0.3s; 
+}
+footer .copyright{
+    font-size: 14px;
+}
+
+
+
+/*********   Portfolio      ***************/
+.portfolio-title{
+    
+    background-image: linear-gradient(to left,rgb(85, 85, 233),rgb(77, 177, 122),rgb(66, 181, 185));
+    
+    color: white;
+    
+    
+    
+    
+    
+}
+.portfolio-heading{
+    font-size:25px;
+    font-weight: 600;
+    background-color:  #0099ff;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+    font-style:inherit;
+}
+
+
+/* skills */
+
+.html{
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    color: white;
+    font-size: 50px;
+}
+.css{
+    margin-top: 20px;
+    margin-left: 90px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    color: white;
+    font-size: 45px;
+}
+.bootstrap{
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+}
+.FILEZILLA{
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+}
+.google{
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+}
+.office{
+    margin-left: 100px;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+.ANYDESK{
+    margin-top: 100px;
+    margin-left: 200px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+}
+.lang{
+    margin-top: 20px;
+    margin-left: 200px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+}
+.experience-title{
+    
+    background-image: linear-gradient(to left,rgb(78, 78, 233),rgb(77, 177, 122),rgb(66, 181, 185));
+    height: 80px;
+    color: white;
+    width: 400px;
+    padding-top: 10px;
+    vertical-align: middle;
+    border-radius: 10px;
+    
+}
+.exp-one{
+    
+    
+    background-image: linear-gradient(to right,rgb(73, 165, 115),rgb(47, 151, 155));
+    color: white;
+    border-radius: 10px;
+}
+.exp-one hr{
+    color: white;
+    background-color: white;
+    
+}
+.exp-two{
+    
+    
+    background-image: linear-gradient(to right,rgb(73, 165, 115),rgb(47, 151, 155));
+    color: white;
+    border-radius: 10px;
+}
+.exp-one-heading{
+    font-size: 25px;
+}
+.edu-table{
+    background-color:  #0099ff;
+    color: white;
+}
+.about-title{
+    
+    background-color:  #0099ff;
+    height: 80px;
+    color: white;
+    width: 350px;
+    padding-top: 10px;
+    vertical-align: middle;
+    border-radius: 10px;
+    
+}
+.about-one{
+    font-size: 23px;
+    font-weight: 400;
+}
+.about-box{
+    margin-left: 20px;
+    border-radius: 10px;
+    height: 150px;
+    color: white;
+    width: 400px;
+    background-color:  #0099ff;
+    font-size: 18px;
+}
+.about-btn button{
+    color: white;
+    height: 60px;
+    width: 300px;
+    background-color:  #0099ff;
+}
+.about-btn button:hover{
+    background-image: linear-gradient(to right,rgb(78, 78, 233),rgb(77, 177, 122),rgb(66, 181, 185));   
+    color: white;
+    transition: all ease-in-out 0.5s;
+}
+footer p a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
